@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    tools:context="com.example.babyyang.mywordapp.WordDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:text="这是显示列表"
+            />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单词及其释义:"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_below="@+id/tv1"
+            />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/accent_material_light"
+            android:id="@+id/word"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wordmeaning"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/word"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wordsample"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/wordmeaning"
+            />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
